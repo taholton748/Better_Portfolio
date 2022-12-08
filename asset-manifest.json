@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/better-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/better-portfolio/static/js/main.e0d5c7ad.js",
+    "static/js/787.99308bde.chunk.js": "/better-portfolio/static/js/787.99308bde.chunk.js",
+    "static/media/logo.svg": "/better-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/better-portfolio/index.html",
+    "main.073c9b0a.css.map": "/better-portfolio/static/css/main.073c9b0a.css.map",
+    "main.e0d5c7ad.js.map": "/better-portfolio/static/js/main.e0d5c7ad.js.map",
+    "787.99308bde.chunk.js.map": "/better-portfolio/static/js/787.99308bde.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e0d5c7ad.js"
+  ]
+}
