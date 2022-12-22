@@ -1,33 +1,32 @@
-import React from 'react';
+import React from "react";
 
-function Nav() {
+function Nav(props) {
+  const setPage = props?.setPage;
 
   return (
-    <header>
-  <h2>
-    <a href="/">
-      <span role="img" aria-label="camera"> 📸</span> Tyler Holton
-    </a>
-  </h2>
-  <nav>
-    <ul className="flex-row">
-      <li className="mx-2">
-        <a href="#about">
-          About me
+    <header className='flex'>
+      <h2>
+        <a href="/">
+            📸 🛩️ Tyler Holton 💻 🌴
         </a>
-      </li>
-      <li className="mx-2">
-        <span>Portfolio</span>
-      </li>
-      <li className="mx-2">
-        <span>Contact</span>
-      </li>
-      <li className="mx-2">
-        <span>Resume</span>
-      </li>
-    </ul>
-  </nav>
-</header>
+      </h2>
+      <nav>
+        <ul className="flex-row">
+          <li className="mx-2" onClick={() => setPage("about")}>
+            <a href="#about">About me</a>
+          </li>
+          <li className="mx-2" onClick={() => setPage("portfolio")}>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li className="mx-2" onClick={() => setPage("contact")}>
+            <a href="#contact">Contact</a>
+          </li>
+          <li className="mx-2" onClick={() => setPage("resume")}>
+            <a href="#resume">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 }
 
