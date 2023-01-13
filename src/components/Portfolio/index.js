@@ -28,7 +28,7 @@ const projects = [
     title: "Tech-Talk",
     description: "Technology Blog",
     githubLink: "https://github.com/taholton748/Tech_Talk",
-    appLink: "https://aqueous-dusk-15136.herokuapp.com/",
+    appLink: "https://techtalk9.herokuapp.com",
   },
   {
     image: notes,
