@@ -28,6 +28,10 @@
 font-size: 70px;
 }
 
+.footer {
+  text-align: center;
+}
+
 .App-link {
   color: #61dafb;
 }
