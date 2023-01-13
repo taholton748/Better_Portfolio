@@ -1,7 +1,7 @@
 # React Portfolio
   [![License Badge](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
   ## Description
-  This is a professional portfolio that was created with a React UI. <hr>
+  This was a project to create a much better-looking, more professional portfolio using a React user interface (UI). <hr>
   
   ## Table of Contents
   * [Installation](#installation)
