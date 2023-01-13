@@ -347,3 +347,8 @@ a {
   color: white;
   transform: rotateY(180deg);
 }
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}

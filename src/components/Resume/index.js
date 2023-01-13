@@ -7,14 +7,23 @@ function Resume() {
     <div>Download resume <a>here</a></div>
     <div className="my-5">Front-End Proficiencies</div>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
         <li>JavaScript</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <li>VS Code</li>
         </ul> 
     <div className="my-5">Back-End Proficiencies</div>
     <ul>
-      <li>Express</li>
+      <li>Express.js</li>
+      <li>Node.js</li>
+      <li>SQL</li>
+      <li>Git</li>
+      <li>GitHub</li>
+      <li>Heroku</li>
+      <li>NoSQL</li>
+      <li>Sequelize</li>
     </ul>
   </section>
     );

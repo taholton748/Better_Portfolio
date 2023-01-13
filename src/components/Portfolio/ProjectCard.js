@@ -1,12 +1,12 @@
 import React from "react";
-import githubLogo from "../../assets/logos/github-mark.png";
+import "../../App.css"
 
 // export const ProjectCard = () => {
 //   return (
 //     <div>ProjectCard</div>
 //   )
 // }
-function ProjectCard(image, title, description, githubLink, appLink) {
+function ProjectCard({ image, title, description, githubLink, appLink }) {
   return (
     <section>
       <div class="flip-card">
@@ -15,10 +15,9 @@ function ProjectCard(image, title, description, githubLink, appLink) {
             <img src={image} alt="Avatar" />
           </div>
           <div class="flip-card-back">
-          <h1>Title</h1>
-          <p>Description: {description}</p>
-            <a href={githubLink}><img src={githubLogo} alt="github-logo"/></a>
-            
+          <h1><a href={appLink}>{title}</a></h1>
+          <p>{description}</p>
+            <a href={githubLink}>GitHub Repo</a>
           </div>
         </div>
       </div>
